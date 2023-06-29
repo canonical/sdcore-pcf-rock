@@ -1,5 +1,6 @@
 name: sdcore-pcf
-base: ubuntu:22.04
+base: bare
+build-base: ubuntu:22.04
 version: '1.3'
 summary: SD-Core PCF
 description: SD-Core PCF
@@ -15,5 +16,7 @@ parts:
     source-commit: bcbdeb0c9f21f7334ab915114f5895ab6c289009
     build-snaps:
       - go/1.18/stable
+    stage-packages:
+      - libc6_libs
     organize:
       bin/cmd: bin/pcf
