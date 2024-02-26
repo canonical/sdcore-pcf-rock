@@ -14,7 +14,7 @@ parts:
     plugin: go
     source: https://github.com/omec-project/pcf.git
     source-type: git
-    source-commit: 2dc89ef6bdb4357514ccb1853dfddacf3b852578
+    source-commit: 1857941ec906dea183790648b3613cdc2884599c
     build-snaps:
       - go/1.21/stable
     stage-packages:
