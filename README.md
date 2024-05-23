@@ -1,4 +1,4 @@
-# SD-Core PCF ROCK
+# SD-Core PCF rock
 
 Container image for SD-Core PCF.
 
