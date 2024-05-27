@@ -1,6 +1,6 @@
 name: sdcore-pcf
 base: bare
-build-base: ubuntu@22.04
+build-base: ubuntu@24.04
 version: '1.4.1'
 summary: SD-Core PCF
 description: SD-Core PCF
@@ -19,5 +19,6 @@ parts:
       - go/1.21/stable
     stage-packages:
       - libc6_libs
+      - base-files_lib
     organize:
       bin/cmd: bin/pcf
