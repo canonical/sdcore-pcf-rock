@@ -1,7 +1,7 @@
 name: sdcore-pcf
 base: bare
 build-base: ubuntu@24.04
-version: '1.4.1'
+version: '1.4.2'
 summary: SD-Core PCF
 description: SD-Core PCF
 license: Apache-2.0
@@ -14,7 +14,7 @@ parts:
     plugin: go
     source: https://github.com/omec-project/pcf.git
     source-type: git
-    source-tag: v1.4.1
+    source-tag: v1.4.2
     build-snaps:
       - go/1.21/stable
     stage-packages:
