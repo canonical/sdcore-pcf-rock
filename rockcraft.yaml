@@ -1,7 +1,7 @@
 name: sdcore-pcf
 base: bare
 build-base: ubuntu@24.04
-version: '1.4.2'
+version: '1.4.3'
 summary: SD-Core PCF
 description: SD-Core PCF
 license: Apache-2.0
